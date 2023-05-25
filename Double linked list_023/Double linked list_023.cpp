@@ -184,6 +184,12 @@ int main() {
 			case '2':
 				obj.hapus();
 				break;
+			case '3':
+				obj.ascending();
+				break;
+			case '4':
+				obj.descending();
+				break;
 			}
 		}
 	}
