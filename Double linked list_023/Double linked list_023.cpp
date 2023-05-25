@@ -174,7 +174,17 @@ int main() {
 			cout << "4. View all records in the descending order of roll nubers" << endl;
 			cout << "5. exit" << endl;
 			cout << "\nEnter your choisce (1-6): ";
+			char ch;
+			cin >> ch;
 
+			switch (ch) {
+			case '1':
+				obj.addNode();
+				break;
+			case '2':
+				obj.hapus();
+				break;
+			}
 		}
 	}
 }
